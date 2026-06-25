@@ -1,7 +1,7 @@
 module fsm_seq_det (
     input  wire clk,
     input  wire rst,
-	input  wire in_data,
+	  input  wire in_data,
     output reg  detected
 );
 

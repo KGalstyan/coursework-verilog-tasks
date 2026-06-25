@@ -1,4 +1,4 @@
-module traffic_light_controller_tb;
+module tb_traffic_light_controller;
 
     reg clk_tb;
     reg rst_tb;

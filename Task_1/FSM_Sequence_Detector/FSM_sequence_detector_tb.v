@@ -1,4 +1,4 @@
-module fsm_seq_det_tb;
+module tb_fsm_seq_det;
 
     reg clk_tb;
     reg rst_tb;
