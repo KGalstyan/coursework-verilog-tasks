@@ -47,7 +47,6 @@ module traffic_light_controller #(
 	red    = 0;
 	yellow = 0;
 	green  = 0;
-
       case(state)
 		RED_STATE:    red    = 1;
 		GREEN_STATE:  green  = 1;

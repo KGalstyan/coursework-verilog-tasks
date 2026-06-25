@@ -38,7 +38,7 @@ module tb_fsm_seq_det;
     endtask
 
     initial begin
-        $dumpfile("dump.vcd");$dumpvars;
+        $dumpfile("dump.vcd");$dumpvars; //EPWave *.vcd file (for simulation waveform viewing)
 
         clk_tb = 0;
         rst_tb = 1;
