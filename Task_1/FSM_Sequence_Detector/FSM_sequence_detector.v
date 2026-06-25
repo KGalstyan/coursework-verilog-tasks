@@ -9,9 +9,9 @@ module fsm_seq_det (
 
   state_t state, next_state;
 
-  
+
   always @(posedge clk or posedge rst) begin
-        if (rst)
+    if (rst)
             state <= S0;
         else
             state <= next_state;

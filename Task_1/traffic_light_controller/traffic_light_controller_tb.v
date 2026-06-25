@@ -31,5 +31,4 @@ module tb_traffic_light_controller;
 
         #500 $finish;
     end
-
 endmodule

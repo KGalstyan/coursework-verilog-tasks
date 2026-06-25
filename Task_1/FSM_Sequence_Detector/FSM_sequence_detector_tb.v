@@ -64,3 +64,4 @@ module tb_fsm_seq_det;
     end
 
 endmodule
+
